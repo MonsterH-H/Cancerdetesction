@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Streamlit Secrets (PROTECTED)
+.streamlit/secrets.toml
+
+# Project Data (Medical Privacy)
+data/*.db
+data/*.db-journal
+data/reports/
+data/prediction_history.csv
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
